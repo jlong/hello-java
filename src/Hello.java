@@ -1,11 +1,15 @@
-
 public class Hello {
 
 	public static void main(String[] args) {
-		if (args.length > 0) {
-			System.out.printf("Hello %s!", args[0]);
-		} else {
+		switch (args.length) {
+		case 0:
 			System.out.println("Hello world!");
+			break;
+		case 1:
+			System.out.printf("Hello %s!", args[0]);
+			break;
+		default:
+			System.out.println("hello: too many parameters!");	
 		}
 	}
 
