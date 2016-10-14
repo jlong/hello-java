@@ -1,3 +1,6 @@
+# No need to include Eclipse settings
+.settings/*
+
 *.class
 
 # Mobile Tools for Java (J2ME)
