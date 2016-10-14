@@ -1,5 +1,6 @@
 # No need to include Eclipse settings
 .settings/*
+.project
 
 *.class
 
