@@ -13,4 +13,5 @@ node {
 
   stage "Package"
   sh "${mvn} package"
+  archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
 }
