@@ -11,7 +11,7 @@ public class Hello {
 			System.out.printf("Hello %s!\n", args[0]);
 			break;
 		default:
-			System.out.println("hello: too many parameters!");	
+			System.err.println("hello: too many parameters!");	
 		}
 	}
 
